@@ -125,7 +125,7 @@ function start() {
             Gallery.images.right.url = data.image;
             Gallery.images.right.hash = data.hash;
             $('#rightlayer .showimage').attr('src', data.image);
-            tid = setTimeout(startCounter, 25000);
+            tid = setTimeout(startCounter, 60000);
         });
     });
 }
@@ -157,7 +157,7 @@ function startCounter() {
            });
        });
     });
-    tid = setTimeout(startCounter, 25000);
+    tid = setTimeout(startCounter, 60000);
 }
 
 function loadfolders(path) {

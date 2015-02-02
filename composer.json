@@ -4,7 +4,6 @@
         "smarty/smarty": "3.*"
     },
     "autoload": {
-        "psr-0": {"": "classes"},
-        "files": ["config/config.php"]
+        "psr-0": {"": "classes"}
     }
 }
